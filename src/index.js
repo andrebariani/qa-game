@@ -1,7 +1,7 @@
 import React from 'react';
 import { Lobby } from 'boardgame.io/react';
-import { TicTacToeBoard } from './board';
-import { TicTacToe } from './game';
+import { TicTacToeBoard } from './Board';
+import { TicTacToe } from './Game';
 
 const server = `https://${window.location.hostname}`;
 const importedGames = [{
