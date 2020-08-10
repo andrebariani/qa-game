@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "text": "Yes?",
+      "numOfAnswers": 1
+    },
+    {
+      "text": "______, ______!",
+      "numOfAnswers": 2
+    },
+    {
+      "text": "___ + ___ = ___",
+      "numOfAnswers": 3
+    }
+  ]
+}
