@@ -14,7 +14,7 @@ const TicTacToeClient = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
   numPlayers: 3,
-  multiplayer: SocketIO({ server: "localhost:8000" })
+  multiplayer: SocketIO({ server: "https://${window.location.hostname}" })
 });
 
 class App extends React.Component {
